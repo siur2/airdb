@@ -1,0 +1,6 @@
+*.sdf
+*.opensdf
+*.suo
+
+**/x64/
+ipch/
