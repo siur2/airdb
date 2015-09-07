@@ -26,7 +26,7 @@ public:
 	char* store(const string value);
 	void shrink(int count);
 public:
-	static class Chunk {
+	class Chunk {
 		friend class ChunkedAllocator;
 	public:
 		static const int CAPACITY = 1 * 1024 * 1024;
